@@ -1,0 +1,55 @@
+/*Este es un comentario en CSS*/
+#uno{ background-color: #F00;}
+#dos{ background-color: #0F0;}
+#tres{ background-color: #00F;}
+
+#uno,#dos,#tres{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: right;
+}
+
+h3{
+    color: #FFF;
+    font-size: 55px;
+    text-align: center;
+}
+
+#capa1{
+    background-color: #333;
+    color: #FFF;
+    /*ancho de la ventana*/
+    width: 25vw;
+    /*alto de la ventana*/
+    height: 25vw;
+    border-width: 5px;
+    border-color: #FFF;
+    border: 5px solid;
+    border-radius: 15%;
+    border-top-color: #F00;
+    border-right-color: #0F1;
+    border-bottom-color: #00F;
+    border-left-color: #0FF;   
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box; 
+}
+
+#capa2{
+    background-color: #CCC;
+    color: #333;
+    width: 25vw;
+    height: 25vw;
+    border: 1px solid #FFF;
+    margin-top: 10px;
+    overflow: auto;
+}
+body{
+    background-color: #b6d6f2;
+    background-image: url('../img/fondo.png');
+    background-attachment: fixed;
+    background-repeat: repeat;
+    font-family: Verdana, sans-serif;
+}
